@@ -27,7 +27,8 @@
 }
 
 nav a{
-    color:#446abd;
+    color:#000000;
+    background-color: #44a1bd;
     margin: 0;
     text-decoration: none;
     display: inline-block;
@@ -42,7 +43,8 @@ nav a{
 nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
-  color: #446abd
+  color:#000000;
+  background-color: #44a1bd;
   
 }
 
@@ -58,6 +60,19 @@ nav a:hover {
 .shrinklogo{
   max-width:30%;
   max-height:30%;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
     
 body {
