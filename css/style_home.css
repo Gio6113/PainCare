@@ -2,6 +2,7 @@
   Navigation Bar
 */
 
+
 .header{
     width: 120%;
     height: 64px;
@@ -42,7 +43,7 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
   color: #F0D473
-  text-decoration: underline;
+  
 }
 
 /* 
@@ -59,10 +60,6 @@ nav a:hover {
   max-height:30%;
 }
     
-body {
-  background-image: url("/images/fondecran.png");
-  background-repeat: no-repeat ; /*pas de répition de l'image*/
-  background-attachment: fixed ;
- }
- 
- 
+body{
+  background: #feffff;
+}
