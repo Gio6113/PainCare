@@ -4,7 +4,7 @@ window.onscroll = (function() {
 	if (previousScrollY > currentScrollY) {
 		$(".header").slideDown("slow");
 	} else {
-		$(".header").slideUp("slow");
+		$(".header").slideUp("fast");
 	}
 	previousScrollY = window.pageYOffset;
 });
