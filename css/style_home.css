@@ -73,7 +73,7 @@ nav a:hover {
     font-family: Perpetua, Times, sans-serif;
     color: #3BE4D5;
     word-spacing: 1.05em;
-    
+    text-transform: uppercase;
 }
 
 
@@ -82,8 +82,8 @@ nav a:hover {
 */
 
 .shrink {
-  max-width:40%;
-  max-height:40%;
+  max-width:70%;
+  max-height:50%;
 }
 
 .shrink2{
@@ -93,7 +93,10 @@ nav a:hover {
   max-height:80%;
 }
 
-
+.home_image{
+    width: 66%;
+    max-height:900px;
+}
 
 
 /* 
@@ -141,17 +144,30 @@ nav a:hover {
 
 .start_editor_btn {
     font-family: 'Quicksand', sans-serif;
-    font-size: 225%;
+    font-size: 130%;
+    font-size: 3vw;
     text-decoration: underline, none;
     border: 1px solid;
-    color: #f58442;
-    padding: 2px 6px;
+    border-color: black;
+    color: #db7d25;
+    padding: 20px 30px;
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.start_editor_btn:hover {
+     background: rgba(255, 255, 255, 0.8);
+     color: ##db7d25;
+}
+
+.start_editor_btn:active{
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translate(-50%, -40%);
 }
 
 .btn {
@@ -168,5 +184,11 @@ nav a:hover {
   background-color: RoyalBlue;
 }
     
+
+.footer{
+  background-color: #db7d25;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 
