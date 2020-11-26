@@ -8,7 +8,6 @@ window.onscroll = (function() {
 	}
 	previousScrollY = window.pageYOffset;
 });
-<<<<<<< HEAD
 let navToggle = document.querySelector(".nav__toggle");
 let navWrapper = document.querySelector(".nav__wrapper");
 
@@ -23,5 +22,3 @@ navToggle.addEventListener("click", function () {
     this.setAttribute("aria-expanded", "true");
   }
 });
-=======
->>>>>>> b84d00ab58998bd8914eadb3eae37f8f7fd3c575
