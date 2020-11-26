@@ -8,6 +8,7 @@ window.onscroll = (function() {
 	}
 	previousScrollY = window.pageYOffset;
 });
+
 let navToggle = document.querySelector(".nav__toggle");
 let navWrapper = document.querySelector(".nav__wrapper");
 
