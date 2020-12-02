@@ -12,6 +12,7 @@
     background-color: white;
     align-content:flex-end;
     overflow: hidden;
+    z-index: 999
 }
 
 .nav-list {
