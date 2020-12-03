@@ -12,7 +12,6 @@
 
    <body>
 
-<!--
        <script>
        window.addEventListener('beforeunload', ev => {
            ev.returnValue =
@@ -20,7 +19,6 @@
 
        });
        </script>
--->
 
 
         <div class="header">
@@ -43,37 +41,141 @@
 
        <div id="online_form" class="form" align = "center">
            <img class="form_image" src="images/PETDforEditor.jpg" alt="formhere" id="form_view">
-
-        <label class="container">xedsds
-          <input type="checkbox">
-          <span class="checkmark"></span>
-        </label>
+       
+             <div class="habits_checks">
+                <label class="container">Smoking
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Alcohol
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Diet
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+            </div>
+           
+            <div class="sleep_checks">
+                <label class="container">Poor
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Not refreshing
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Good
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+            </div>
+           
+            <div class="exercise_checks">
+                <label class="container">Not enough
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Too much
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Just Right
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+            </div>
+           
+            <div class="ergonomics_checks">
+                <label class="container">"Machine-body connection"
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">&nbsp;
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">&nbsp;
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+            </div>
+           
+            <div class="other_checks">
+                <label class="container">Life in general                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Financial Problems
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Stress/anger/fear/nightmares
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">History of physical abuse
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Alcoholism (you or your family)
+                    <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">&nbsp;
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">&nbsp;
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+            </div>
+           
+           <div class="diagnosis_checks">
+                <label class="container">Bones
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Nerves
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Joints
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+            </div>
        </div>
-       <div id ="save"></div>
-       <div>
+       
 
+        <input type="text" class="textbox_name" id="fullname">
+           <input type="text" class="textbox_date" id="date">
+           <input type="text" class="textbox_chart" id="chart">
 
-           <label class="container">
-      <input type="checkbox" checked="checked"><span style="display:none">x</span>
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">z
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">y
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">x
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-
-
-       </div>
-
-       <input type="text" id="fname" name="fname"><br><br>
+           
+           
+           <input type="text" class="ergo_1" id="ergo1">
+           <input type="text" class="ergo_2" id="ergo2">
+           
+           <input type="text" class="other_1" id="other1">
+           <input type="text" class="other_2" id="other2">
+           
+           <input type="text" class="treatment_habits1" id="treatment_habits1">
+           <input type="text" class="treatment_habits2" id="treatment_habits2">
+           
+           <input type="text" class="treatment_sleep1" id="treatment_sleep1">
+           <input type="text" class="treatment_sleep2" id="treatment_sleep2">
+           
+            <input type="text" class="treatment_exercise1" id="treatment_exercise1">
+           <input type="text" class="treatment_exercise2" id="treatment_exercise2">
+           
+            <input type="text" class="treatment_ergonomics1" id="treatment_ergonomics1">
+           <input type="text" class="treatment_ergonomics2" id="treatment_ergonomics2">
+           
+           <input type="text" class="treatment_others1" id="treatment_others1">
+           <input type="text" class="treatment_others2" id="treatment_others2">
+           
         <textarea class="patient_additional" placeholder="Additional comments from patient:" ></textarea>
        <textarea class="doctor_additional" placeholder="Additional comments from medical staff:" ></textarea>
 

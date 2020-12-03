@@ -20,14 +20,94 @@
     margin-top: 40px;
 }
 
-.form{
-    position: relative;
- 
-}
+
+
+/* 
+form styles
+*/
+
 
 .form_image{
-     z-index:-5;
-     width:100%;
+    width:100%;
+    position: relative
+    z-index: -1;
+}
+
+.form{
+    width: 100%;
+    position: relative;
+}
+
+.form .habits_checks{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  bottom:0;
+  right: 0;
+  width: 30%;
+  height: 14%;
+  z-index: 998;
+  text-align: left;
+}
+
+.form .sleep_checks{
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  bottom:0;
+  right: 0;
+  width: 30%;
+  height: 14%;
+  z-index: 998;
+  text-align: left;
+}
+
+.form .exercise_checks{
+  position: absolute;
+  top: 30%;
+  left: 51%;
+  bottom:0;
+  right: 0;
+  width: 30%;
+  height: 14%;
+  z-index: 998;
+  text-align: left;
+}
+
+.form .ergonomics_checks{
+  position: absolute;
+  top: 30%;
+  left: 71%;
+  bottom:0;
+  right: 0;
+  width: 30%;
+  height: 14%;
+  z-index: 998;
+  text-align: left;
+}
+
+.form .other_checks{
+  position: absolute;
+  top: 56%;
+  left: 3.4%;
+  bottom:0;
+  right: 0;
+  width: 33%;
+  height: 14%;
+  z-index: 998;
+  text-align: left;
+}
+
+.form .diagnosis_checks{
+  position: absolute;
+  top: 58%;
+  left: 72.5%;
+  bottom:0;
+  right: 0;
+  width: 28.5%;
+  height: 14%;
+  z-index: 998;
+  text-align: left;
 }
 
 
@@ -36,13 +116,14 @@
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 1%;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 1.9vw ;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  height: 20%;
 }
 
 
@@ -50,6 +131,7 @@
 /* 
 checkboxe styles
 */
+
 .container input {
   position: absolute;
   opacity: 0;
@@ -60,17 +142,18 @@ checkboxe styles
 
 /* Create a custom checkbox */
 .checkmark {
-  position: absolute;
+  position: absolute;    
+  font-family: arial;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eee;
+  height: 90%;
+  width: 7%;
+  background-color: #29c4c4;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #3bf5eb;
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -92,10 +175,10 @@ checkboxe styles
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 7px;
-  top: 3px;
-  width: 5px;
-  height: 10px;
+  left: 25%;
+  top: 10%;
+  width: 35%;
+  height: 65%;
   border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);

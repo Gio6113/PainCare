@@ -102,12 +102,15 @@
 
 .subtitle{
     margin-top:70px;
+    margin-left:3px;
     font-size: 22px;
     text-align: left;
     font-family: 'Titillium Web','Noto Sans', sans-serif;
     color: #9e9d9d;
-    word-spacing: 1.05em;
+    word-spacing: 1.0em;
     text-transform: uppercase;
+    border-bottom: 4px solid; 
+    height: 8%;
 }
 
 
@@ -257,14 +260,6 @@
      margin: 5px;
 }
 
-.btn {
-  background-color: 3BE4D5;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 2vw;
-}
 
 .main_paragraphss{
   color:#9f5f5f;
@@ -322,9 +317,20 @@ Help Styles
     vertical-align: center;
     
 }
+
 /* 
   Downloads and view buttons
 */
+
+
+.btn {
+  background-color: 3BE4D5;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 2vw;
+}
 
 
 /* Darker background on mouse-over */
