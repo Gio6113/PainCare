@@ -101,7 +101,7 @@ form styles
   right: 0;
   width: 30%;
   height: 14%;
-  z-index: 900;
+  z-index: 901;
   text-align: left;
 }
 
@@ -113,7 +113,7 @@ form styles
   right: 0;
   width: 30%;
   height: 14%;
-  z-index: 900;
+  z-index: 902;
   text-align: left;
 }
 
@@ -125,13 +125,13 @@ form styles
   right: 0;
   width: 30%;
   height: 14%;
-  z-index: 900;
+  z-index: 903;
   text-align: left;
 }
 
 .form .other_checks{
   position: absolute;
-  top: 65%;
+  top: 63%;
   left: 3.4%;
   bottom:0;
   right: 0;
@@ -198,59 +198,59 @@ position textboxes
 
 .form .thabit1{
   position: absolute;
-  top: 46%;
+  top: 45%;
   left: 6.5%;
 }
 
 .form .thabit2{
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 6.5%;
 }
 
 .form .tsleep1{
   position: absolute;
-  top: 46%;
+  top: 45%;
   left: 29.4%;
 }
 
 .form .tsleep2{
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 29.4%;
 }
 
 
 .form .texercise1{
   position: absolute;
-  top: 46%;
+  top: 45%;
   left: 53%;
 }
 
 .form .texercise2{
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 53%;
 
 }
 
 .form .tergo1{
   position: absolute;
-  top: 46%;
+  top: 45%;
   left: 77.4%;
 
 }
 
 .form .tergo2{
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 77.4%;
 
 }
 
 .form .tother1{
   position: absolute;
-  top: 90%;
+  top: 91.7%;
   left: 7.4%;
   width: 34%;
  
@@ -258,7 +258,7 @@ position textboxes
 
 .form .tother2{
   position: absolute;
-  top: 93.6%;
+  top: 95%;
   left: 7.4%;
   width: 34%;
 
@@ -302,40 +302,31 @@ position textboxes
 
 .form .diagnosis1{
   position: absolute;
-  top: 65.2%;
+  top: 63.5%;
   left: 37.2%;
-  z-index: 997;
   width: 45%;
 }
 
 .form .diagnosis2{
   position: absolute;
-  top: 68.7%;
+  top: 67%;
   left: 37.2%;
-  z-index: 997;
   width: 45%;
 }
 
 .form .diagnosis3{
   position: absolute;
-  top: 72.2%;
+  top: 70.5%;
   left: 37.2%;
-  z-index: 997;
   width: 45%;
 }
 
 .form .diagnosis4{
   position: absolute;
-  top: 75.7%;
+  top: 74%;
   left: 37.2%;
-  z-index: 997;
   width: 45%;
 }
-
-
-
-
-
 
 
 /* 
@@ -384,7 +375,7 @@ checkboxe styles
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #2a76e8;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -402,7 +393,7 @@ checkboxe styles
 /* Style the checkmark/indicator */
 .container .checkmark:after {
   left: 25%;
-  top: 10%;
+  top: 0%;
   width: 35%;
   height: 65%;
   border: solid white;
