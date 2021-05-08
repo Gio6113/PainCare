@@ -1,4 +1,4 @@
-PainCare is a website for doctors and patience suffering from chronic pains to fill out a Pain Risk Explanation form to identify and treat their symptoms.
+PainCare is a website for doctors and patients suffering from chronic pains. It allows patients to fill out a Pain Risk Explanation form to easily identify and treat their symptoms.
 
 The Website was created by Dr Hillel Finestone and 5 engineering students at the University of Ottawa. It can be accessed via this url: https://gio6113.github.io/PainCare and and soon enough on another domain of its own!
 
